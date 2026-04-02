@@ -20,6 +20,7 @@ if (len_select) >= 20
 I experimented with three cases: 5 frames, 20 frames, and no limit.
 
 Case 1: 5 frames
+```
 K:
 [[1.66553871e+03 0.00000000e+00 5.27091992e+02]
  [0.00000000e+00 1.66064014e+03 9.67089399e+02]
@@ -29,7 +30,7 @@ dist:
 [[ 1.34010418e-01  5.67192870e-01 -1.04790274e-03 -2.62121819e-03 -6.47472397e+00]]
 
 error: 0.2072
-
+```
 Although the error value (≈ 0.2) is very low and appears excellent, the distortion coefficients are clearly abnormal.
 This suggests that the model is overfitting, meaning the numerical error is low but the result is not statistically reliable.
 
