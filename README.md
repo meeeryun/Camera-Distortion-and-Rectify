@@ -13,9 +13,9 @@ The selected frames are stored in an array called img_select, which is returned 
 
 The most important part of this function is the condition:
 
-'''
+```
 if (len_select) >= 20
-'''
+```
 
 I experimented with three cases: 5 frames, 20 frames, and no limit.
 
