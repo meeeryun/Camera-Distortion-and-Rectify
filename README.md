@@ -101,5 +101,5 @@ Visualization Process
 Finally:
 
 np.hstack and np.vstack are used to arrange the images side by side.
-Text such as "Original | Undistorted" is displayed.
+Text such as ```"Original | Undistorted"``` is displayed.
 The program can be terminated by pressing the ESC key.
